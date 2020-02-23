@@ -98,4 +98,9 @@ body{
   font-size: 30px;
   color: #bbb;
 }
+.main {
+  cursor: pointer;
+  font-size: 20px;
+  color: #bbb;
+}
 }
