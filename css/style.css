@@ -80,7 +80,7 @@ body{
 
 
 /* Mobile Version */
-@media screen and(max-width: 450px){
+@media screen and (max-width: 450px){
   .navbar-brand {
     margin-left: 10px;
   }
@@ -92,15 +92,12 @@ body{
   }
   .navbar-brand img {
     width: 100px;
-    margin-top: 10px;
-}
-.nav a{
-  font-size: 30px;
-  color: #bbb;
-}
-.main {
-  cursor: pointer;
-  font-size: 20px;
-  color: #bbb;
-}
+  }
+  .nav a{
+    font-size: 20px;
+    color: #bbb;
+  }
+  .main {
+    font-size: 20px;
+  }
 }
