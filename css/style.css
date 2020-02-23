@@ -34,7 +34,6 @@ body{
     left: 0;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.3s;
   }
 .main {
     cursor: pointer;
@@ -61,13 +60,27 @@ body{
     margin-left: 50px;
   }
 
+/* product */
+.card {
+  margin-top: 20px;
+}
 /* utility */
 .utility{
   opacity: 0.3;
 }
+.icon {
+  text-align: right;
+  margin-top: 30px;
+}
+.icon img{
+  width: 60px;
+  position: fixed;
+}
+
+
 
 /* Mobile Version */
-@media screen and (max-width: 768px){
+@media screen and(max-width: 450px){
   .navbar-brand {
     margin-left: 20px;
   }
