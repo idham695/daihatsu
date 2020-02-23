@@ -90,4 +90,12 @@ body{
   .sidenav a {
     font-size: 14px;
   }
+  .navbar-brand img {
+    width: 100px;
+    margin-top: 10px;
+}
+.nav a{
+  font-size: 30px;
+  color: #bbb;
+}
 }
