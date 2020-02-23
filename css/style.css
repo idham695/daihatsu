@@ -67,3 +67,13 @@ body{
 .utility{
   opacity: 0.3;
 }
+
+/* Mobile Version */
+@media only screen and(max-width: 768px){
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  .nav a:not(:last-child) {
+    margin-right: 20px;
+  }
+}
