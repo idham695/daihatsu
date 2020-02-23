@@ -82,7 +82,7 @@ body{
 /* Mobile Version */
 @media screen and(max-width: 450px){
   .navbar-brand {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .nav a:not(:last-child) {
     margin-right: 20px;
