@@ -1,7 +1,7 @@
 var element = document.getElementById("container");
 function openNav() {
     element.classList.add("utility");
-    document.getElementById("sidenav").style.width = "250px";
+    document.getElementById("sidenav").style.width = "300px";
 }
 
 function closeNav() {
