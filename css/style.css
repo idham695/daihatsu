@@ -1,11 +1,13 @@
 body{
   background-color: #dddddd;
+  overflow-x: hidden;
 }
 
 /* navbar */
 .navbar {
   box-shadow: 0 2px rgba(0, 0, 0, 0.5);
   background-color: white;
+  width: 100vw;
 }
 .navbar-brand{
     margin-left: 30px;
@@ -58,6 +60,14 @@ body{
 .card {
   margin-top: 20px;
 }
+/* footer */
+.footer {
+  background-color: #b0afac;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
 /* utility */
 .utility{
   opacity: 0.3;
@@ -66,9 +76,8 @@ body{
   text-align: right;
   margin-top: 30px;
 }
-.icon img{
+.icon img {
   width: 60px;
-  position: fixed;
 }
 .feather {
   width: 24px;
@@ -79,7 +88,10 @@ body{
   stroke-linejoin: round;
   fill: #dddddd;
   cursor: pointer;
+  margin-right: 10px;
 }
+
+
 
 
 
@@ -100,5 +112,12 @@ body{
   .feather {
     width: 18px;
     height: 18px;
+    margin-right: 2px;
+  }
+  .feather:last-child{
+    margin-right: 12px;
+  }
+  .footer {
+    font-size: 16px;
   }
 }
