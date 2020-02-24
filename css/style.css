@@ -98,6 +98,7 @@ body{
 @media screen and (max-width: 600px) {
   .navbar {
     overflow-x: hidden;
+    width: 100vw;
   }
   .navbar-brand {
     margin-left: 10px;
