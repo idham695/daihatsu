@@ -6,8 +6,6 @@ body{
 .navbar {
   box-shadow: 0 2px rgba(0, 0, 0, 0.5);
   background-color: white;
-  width: 100vw;
-  overflow-x: hidden;
 }
 .navbar-brand{
     margin-left: 30px;
