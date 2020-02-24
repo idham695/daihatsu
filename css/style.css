@@ -96,7 +96,7 @@ body{
 
 
 @media screen and (max-width: 600px) {
-  body {
+  .navbar {
     overflow-x: hidden;
   }
   .navbar-brand {
