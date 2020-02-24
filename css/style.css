@@ -65,7 +65,7 @@ body{
   padding-top: 20px;
   font-size: 18px;
   width: 100vw;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 /* utility */
