@@ -12,14 +12,7 @@ body{
 }
 .navbar-brand img {
     width: 200px;
-    margin-top: 10px;
-}
-.nav a{
-  font-size: 30px;
-  color: #bbb;
-}
-.nav a:not(:last-child){
-  margin-right: 30px;
+    margin-top: 4px;
 }
 .nav a:hover{
   color: #dddd;
@@ -39,6 +32,7 @@ body{
     cursor: pointer;
     font-size: 30px;
     color: #bbb;
+    margin-top: -2px;
 }
 .main :hover{
   color: #dddd;
@@ -76,28 +70,35 @@ body{
   width: 60px;
   position: fixed;
 }
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke: black;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: #dddddd;
+  cursor: pointer;
+}
 
 
 
-/* Mobile Version */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px) {
   .navbar-brand {
-    margin-left: 0;
-  }
-  .nav a:not(:last-child) {
-    margin-right: 0;
+    margin-left: 10px;
   }
   .sidenav a {
-    font-size: 2px;
+    font-size: 14px;
   }
   .navbar-brand img {
-    width: 10px;
-  }
-  .nav a{
-    font-size: 2px;
-    color: #bbb;
+    width: 150px;
   }
   .main {
-    font-size: 2px;
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  .feather {
+    width: 18px;
+    height: 18px;
   }
 }
