@@ -111,6 +111,7 @@ html, body{
   .feather {
     width: 18px;
     height: 18px;
+    margin-left: 2px;
   }
   .footer {
     font-size: 14px;
