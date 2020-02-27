@@ -73,11 +73,14 @@ html, body{
   opacity: 0.3;
 }
 .icon {
-  text-align: right;
   margin-top: 30px;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
 }
 .icon img {
   width: 60px;
+  text-align: right;
 }
 .feather {
   width: 24px;
