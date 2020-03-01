@@ -75,6 +75,7 @@ html, body{
 .icon {
   margin-top: 30px;
   position: fixed;
+  right: 10vw;
   z-index: 10;
   bottom: 0;
 }
@@ -102,6 +103,9 @@ html, body{
   }
   .sidenav a {
     font-size: 14px;
+  }
+  .icon{
+    right: 3vw;
   }
   .navbar-brand img {
     width: 150px;
